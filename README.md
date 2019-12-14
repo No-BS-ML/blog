@@ -1,7 +1,7 @@
 ### No BS ML Website
 
 - Download or git clone https://github.com/No-BS-ML/blog.git
-- cd mediumish-theme-jekyll
+- cd blog
 - bundle
 - Edit _config.yml options. If your site is in root: baseurl: ''. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
 - jekyll serve --watch
