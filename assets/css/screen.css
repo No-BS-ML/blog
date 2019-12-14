@@ -60,9 +60,9 @@ pre {
 }
 body a.text-dark:hover { color: #dc3545!important; }
 .mediumnavigation {
-    background: -moz-linear-gradient(left, rgba(80,56,74,1) 0%, rgba(107,74,102,0.76) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, rgba(80,56,74,1) 0%,rgba(107,74,102,0.76) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, rgba(80,56,74,1) 0%,rgba(107,74,102,0.76) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(left, rgba(80,56,74,1) 0%, rgba(107,74,102,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(80,56,74,1) 0%,rgba(107,74,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(80,56,74,1) 0%,rgba(107,74,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
