@@ -1,0 +1,71 @@
+# Site
+name: "No BS ML"
+title: "No BS ML"
+description: "ML articles with working, reproducible code that is supported by math. Complete with no ads, paywalls or bullshit hype."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /no-bs-ml
+google_analytics: 'UA-XXXXXXXX-1'
+disqus: 'demowebsite'
+mailchimp-list: 'https://'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  joe:
+    name: Joe 
+    display_name: Joe Hoeller
+    avatar: 'assets/images/joe-hoeller.jpeg'
+    email: nobullml@gmail.com
+    web: https://www.linkedin.com/in/computer-vision-engineer/
+    twitter: https://www.linkedin.com/in/computer-vision-engineer/
+    description: "Education is the passport to the future."
+  eric:
+    name: Eric
+    display_name: Eric Weber    
+    avatar: 'assets/images/eric-weber.jpeg'
+    email: nobullml@gmail.com
+    web: https://www.linkedin.com/in/eric-weber-060397b7/
+    twitter: https://www.linkedin.com/in/eric-weber-060397b7/
+    description: "I learn every day."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
