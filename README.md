@@ -1,10 +1,11 @@
 ### No BS ML Website
+Site avail at: https://no-bs-ml.github.io/blog/
 
-- Download or git clone https://github.com/No-BS-ML/blog.git
-- cd blog
-- bundle
+- Download or ```git clone git@github.com:No-BS-ML/blog.git```
+- ```cd blog```
+- ```bundle```
 - Edit _config.yml options. If your site is in root: baseurl: ''. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
-- jekyll serve --watch
+- ```jekyll serve --watch```
 - Start by adding your .md files in _posts. 
 - YAML front matter
 - featured post - featured:true
