@@ -4,7 +4,8 @@ title: "No BS ML"
 description: "ML articles with working, reproducible code that is supported by math. Complete with no ads, paywalls or bullshit hype."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /no-bs-ml
+url: No-BS-ML.github.io
+baseurl: /
 google_analytics: 'UA-XXXXXXXX-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://'
